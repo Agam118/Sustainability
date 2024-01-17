@@ -1,0 +1,330 @@
+*{
+     margin : 0 ; 
+     padding : 0 ; 
+     box-sizing: border-box;
+     font-family: sans-serif ;
+}
+
+html,body{
+    width : 100% ; 
+    height : 100% ; 
+}
+
+#main{
+    width : 100% ; 
+}
+
+#nav{
+     position: relative;
+     padding : 3vw 10vw ; 
+     display: flex;
+     justify-content: space-between;
+     font-size: 15px ; 
+}
+
+#nav1
+{
+   display: flex;
+   gap : 10px; 
+}
+
+#nav1 a{
+    display: inline-block;
+    text-decoration: none;
+    color : #000 ; 
+}
+
+#nav a{
+    display: inline-block;
+    text-decoration: none;
+    color : #000 ; 
+    font-weight: 800;
+}
+
+#nav #center{
+    position: absolute;
+    top : 50% ; 
+    left : 50% ; 
+    transform: translate(-50% , -50%);
+}
+
+#center a{
+   display: inline-block;
+   text-decoration: none;
+   color: #000;
+}
+
+#hero{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    margin-top: 15vw;
+    padding : 0vw 10vw ; 
+}
+
+#sustain{
+    width : 10vw ; 
+}
+
+#sustain p{
+    text-transform: capitalize;
+    font-weight: 800;
+    opacity: .5 ;
+    font-size: 12px;
+    margin : 10px 0; 
+    line-height: 1;
+}
+#sustain #susimagewrapper{
+    position: relative; 
+    width : 100% ; 
+    height: 15vw;
+    overflow: hidden;
+}
+
+#susimagewrapper img{
+
+    height: 100%;
+    width : 100% ; 
+    object-fit: cover;
+}
+
+#ephemeral{
+    position: relative;
+    width : 30vw ; 
+}
+
+#ephemeral p{
+    margin-top: 30px ;
+    font-size: 1.3vw;
+    letter-spacing: -.07vw;
+    line-height: 1.3;
+    width : 40% ; 
+}
+
+#ephemeral img{
+
+    width: 100%;
+    height : 100% ; 
+    object-fit: cover;
+}
+
+#ephemeral #headings{
+    
+    top : -15% ; 
+    left : -20% ; 
+    position: absolute;
+}
+
+#ephemeral h1{
+    letter-spacing: -.4vw;
+    font-size: 5vw ;
+    font-weight: 400 ;
+    line-height: 1;
+}
+
+#visit{
+     display: flex ;
+     gap : 10px ; 
+     align-items: center ;
+}
+
+#vcircle{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width : 3vw ; 
+    height : 3vw ; 
+    border-radius: 50%;
+    border : 1px solid #5e5e5e ; 
+
+}
+
+#vcircle i{
+    color : #5e5e5e  ; 
+}
+
+#visit h3{
+    font-weight: 400 ;
+    color : #5e5e5e ; 
+}
+
+#motive{
+    margin-top: 4vw ;
+    display: flex;
+    justify-content: space-between;
+    padding : 3vw 10vw ; 
+}
+
+#motive p{
+    line-height: 1.7 ;
+    letter-spacing: -.12vw ;
+    text-align: right ;
+    font-size: 2.1vw ;
+    width : 80% ; 
+    
+}
+
+#motive span{
+    display: inline-block;
+    margin : 0 10px ;
+    border-radius: 100px ; 
+    margin : 0 13px ; 
+    margin-bottom : -12.5px ;
+
+}
+
+#one{
+    width: 80px ;
+    height : 50px ; 
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60% ;
+}
+
+#two{
+
+    width: 130px ;
+    height : 50px ; 
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position: 0% 48% ;
+}
+
+#three{
+
+    width: 80px ;
+    height : 50px ; 
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0% 60% ;
+    
+}
+
+#picture{
+    display: flex;
+    justify-content: space-between;
+    padding: 8vw;
+    padding-left: 14vw;
+    padding-right: 12vw ;
+}
+
+#pic1{
+    width: 15vw ;
+}
+
+#imgblue img{
+    width : 100% ;
+    height: 20vw;
+    object-fit: cover;
+}
+
+#bluedata h1{
+   margin: 10px 0px ;
+   font-weight: 400 ;
+}
+
+#bluedata p{
+    opacity: .8;
+    line-height: 1 ;
+    font-size: 14px;
+}
+
+#pic2{
+    width: 20vw ;
+}
+
+#imgcloud img{
+    width : 100% ;
+    height: 30vw;
+    object-fit: cover;
+}
+
+#cloudata{
+    text-align: right ;
+}
+
+#cloudata h1{
+    margin: 10px 0px ;
+    font-weight: 400 ;
+ }
+
+ #cloudata p{
+    opacity: .8;
+    line-height: 1 ;
+    font-size: 14px ;
+}
+
+#biopack{
+    display: flex ;
+    align-items: center;
+    margin-top: 8vw;
+    width: 100% ;
+}
+
+#bioimg 
+{
+    width : 65% ; 
+    height: 60vh ;
+}
+
+
+#bioimg img{
+    width : 100% ; 
+    height: 100% ;
+    object-position: 0% 70%;
+    object-fit: cover;
+}
+
+#biodata{
+    margin : 40px ; 
+    margin-left : 60px ; 
+    width : 25vw ;
+}
+
+#biodata h1{
+    margin-bottom: 20px ;
+}
+
+#future{
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#future video{
+   
+    position: absolute;
+    top : 50% ; 
+    left : 50% ; 
+    transform: translate(-50% , -50%);
+    width: 100% ;
+    opacity: 0 ;
+}
+
+#ftext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 999  ;
+}
+
+#ftext button{
+    padding: 1vw 1.7vw;
+    font-size: .6vw;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-top: 10px ;
+    border-radius: 100px ;
+    background-color: #fff;
+    border: 1px soldi #c6c6c6;
+    color : #6f6f6f ;   
+
+}
